@@ -1,0 +1,134 @@
+a:hover {
+  text-decoration: none !important;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  padding: 9px 0;
+}
+.header__logo {
+  width: 240px;
+}
+.header__logo p {
+  font-size: 10px;
+}
+.header__search--input {
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+}
+.header__search--input-glass-one {
+  background-color: white;
+  padding: 11px 0 11px 20px;
+  border-radius: 20px;
+}
+.header__search--input-input {
+  padding: 7px 300px 7px 15px;
+  border: none;
+  border-radius: 20px;
+}
+.header__search--input-input:focus-visible {
+  outline: white;
+}
+.header__search--input-glass-two {
+  background-color: #f8f8f8;
+  padding: 11px 20px;
+  border-radius: 0 20px 20px 0;
+}
+.header__search--microphone {
+  background-color: #f8f8f8;
+  padding: 11px 13px;
+}
+.header__user {
+  width: 170px;
+}
+.header__user--avatar-check-out {
+  width: 320px;
+  top: 10;
+  right: 60px;
+}
+.header__user--bell-check-out {
+  width: 300px;
+  top: -10;
+  right: 20px;
+}
+.header__user--bell-count{
+    font-size: 8px;
+      top: -10px;
+      left: 12px;
+}
+.header__user--video-check-out {
+  width: 200px;
+  top: -10;
+  right: 30px;
+}
+.header__user .check-out-hover:hover {
+  background-color: #e6e6e6;
+}
+.header__user .check-out-hover i {
+  width: calc(15% - 10px);
+}
+
+.main__nav {
+  width: 240px;
+  margin-bottom: 58px;
+}
+.main__nav--hover:hover {
+  background-color: #e6e6e6;
+}
+.main__nav--hover i {
+  width: calc(30% - 15px);
+}
+.main__nav--option {
+  font-weight: 500;
+  font-size: 13px;
+}
+.main__content--category-hover {
+  border-radius: 50px;
+  font-size: 14px;
+}
+.main__content--category-hover:hover {
+  background-color: #e6e6e6 !important;
+}
+.main__content--post-post video {
+  height: 200px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+  .header__logo .fa-solid,
+.header__logo p {
+    display: none;
+  }
+  .header__search {
+    display: none !important;
+  }
+  .header__user {
+    width: 20%;
+  }
+  .header__user-glass {
+    display: block !important;
+  }
+  .header__user #header__user--video,
+.header__user #header__user--bell {
+    display: none;
+  }
+  .main__nav {
+    display: none;
+  }
+  .main__content {
+    width: 100% !important;
+  }
+  .main__content--category {
+    overflow-x: scroll;
+  }
+  .main__content--category-ul {
+    width: 1250px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,24 @@
+.main {
+  max-width: 650px;
+  margin: 200px auto 10px;
+}
+
+.footer {
+  max-width: 650px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    border: none !important;
+    margin-top: 50px !important;
+  }
+  .footer {
+    display: block !important;
+  }
+  .footer:first-child {
+    text-align: start !important;
+  }
+}
+
+/*# sourceMappingURL=forgot_pass_error.css.map */
